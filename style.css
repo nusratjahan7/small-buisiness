@@ -22,9 +22,11 @@ header{
     align-items: last baseline;
 } 
 header h1 {
+    white-space: normal;
     margin-left: 20px;
 }
 nav ul{
+    flex-shrink: wrap;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
